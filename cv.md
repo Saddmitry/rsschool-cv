@@ -36,4 +36,8 @@ public class Multiply {
 **Rostov State Transport University**
 Telecommunication systems and networks
 
-###
+### **Languages**
+* **Russian**
+native speaker
+* **English**
+A2
