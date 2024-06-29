@@ -17,4 +17,10 @@ I work as an IT-engineer L2 Support. I like learning new information.
 **My weaknesses:**
 * desire to double check
 
-### 
+### **Skills**
+* HTML
+* CSS 
+* Photoshop
+* Сomputer hardware market
+
+###
