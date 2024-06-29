@@ -23,4 +23,13 @@ I work as an IT-engineer L2 Support. I like learning new information.
 * Photoshop
 * Сomputer hardware market
 
+### **Code Examples**
+``` java
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}
+```
+
 ###
