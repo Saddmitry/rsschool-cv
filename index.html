@@ -3,8 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dmitry Borisov</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link type="image/png" sizes="96x96" rel="icon" href="images/cvico.png">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list"><a href="#contacts" class="nav-list">Contacts</a></li>
+                    <li class="nav-list"><a href="#About-Me" class="nav-list">About me</a></li>
+                    <li class="nav-list"><a href="#Skills" class="nav-list">Skills</a></li>
+                    <li class="nav-list"><a href="#Code-example" class="nav-list">Code Example</a></li>
+                    <li class="nav-list"><a href="#Education" class="nav-list">Education</a></li>
+                    <li class="nav-list"><a href="#Languages" class="nav-list">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="profile" id="profile">
+                <img class="My-photo" src="images/cvphoto.png" alt="My-photo" width="255" height="255">
+                <h1>Dmitry Borisov</h1>
+            </section>
+            <div class="main-content">
+                <section class="contacts">
+                    <h2 id="contacts">Contacts</h2>
+                    <ul class="contacts">
+                        <li class="contacts-info">
+                            <img alt="Phone icon" src="images/cvphone.png" width="30" height="30">Phone +7 903 401 6018</li>
+                        <li class="contacts-info">
+                            <img alt="Mail icon" src="images/cvmail.png" width="30" height="30">E-mail southmeninbox@gmail.com</li>
+                        <li class="contacts-info">
+                            <img alt="GitHub icon" src="images/cvgit.png" width="30" height="30">GitHub <a class="info-git" href="https://github.com/Saddmitry" target="_blank">Saddmitry</a></li>
+                        <li class="contacts-info">
+                             <img alt="Telegram icon" src="images/cvtg.png" width="30" height="30">Telegram <a class="info-tg" href="https://t.me/SDmtr" target="_blank">SDmtr</a></li>
+                    </ul>
+                </section>
+                <section class="about-me">
+                    <h2 id="about-me">About Me</h2>
+                    <p class="about">I work as an IT-engineer L2 Support. I like learning new information..</p>
+                </section>
+                <section class="Skills">
+                    <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li class="Skills-info">CSS</li>
+                        <li class="Skills-info">HTML</li>
+                        <li class="Skills-info">Photoshop</li>
+                        <li class="Skills-info">Сomputer hardware market</li>
+                    </ul>
+                </section>
+                <section class="Code-example">
+                    <h2 id="Code-example">Code</h2>
+                    <pre class="code">
+                        <code>
+                            public class Multiply {
+                                public static Double multiply(Double a, Double b) {
+                                    return a * b;
+                                }
+                            }
+                        </code>
+                    </pre>
+                </section>
+                <section class="Education">
+                    <h2 id="Education">Education</h2>
+                    <ul>
+                        <li class="education-info">Rostov State Transport University Telecommunication systems and networks</li>
+                        <li class="education-info"><a href="https://saddmitry.github.io/rsschool-cv/cv" target="_blank">RSS CV WORK</a></li>
+                    </ul>
+                </section>
+                <section class="Languages">
+                    <h2 id="Languages">Languages</h2>
+                    <ul>
+                        <li class="Languages">Russian native speaker</li>
+                        <li class="Languages">English A2</li>
+                    </ul>
+                </section>
+            </div>
+    </main>
+    <footer class="footer">
+            <a class="git" href="https://github.com/Saddmitry"><p>GitHub</p>
+        </a>
+        <a>
+            <p>2024</p>
+        </a>
+            <a class="RSS" href="https://rs.school/courses/javascript-ru"><img alt="RS School" src="images/rs_school_js.svg" height="30">
+        </a>
+    </footer>
+    </div>
 </body>
 </html>
